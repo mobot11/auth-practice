@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/dylanmoberg/.node/bin/node',
+1 verbose cli   '/Users/dylanmoberg/.node/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp-chai' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json auth-practice@1.0.0 No description
+5 warn package.json auth-practice@1.0.0 No repository field.
+6 warn package.json auth-practice@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'gulp-chai', null ]
+9 verbose cache add name=undefined spec="gulp-chai" args=["gulp-chai",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'gulp-chai',
+10 verbose parsed url   path: 'gulp-chai',
+10 verbose parsed url   href: 'gulp-chai' }
+11 silly lockFile 935681cc-gulp-chai gulp-chai
+12 verbose lock gulp-chai /Users/dylanmoberg/.npm/935681cc-gulp-chai.lock
+13 silly lockFile 935681cc-gulp-chai gulp-chai
+14 silly lockFile 935681cc-gulp-chai gulp-chai
+15 verbose addNamed [ 'gulp-chai', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 6bac25b0-gulp-chai gulp-chai@
+18 verbose lock gulp-chai@ /Users/dylanmoberg/.npm/6bac25b0-gulp-chai.lock
+19 silly addNameRange { name: 'gulp-chai', range: '*', hasData: false }
+20 verbose request where is /gulp-chai
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id a1a21e25494601dd
+23 verbose url raw /gulp-chai
+24 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-chai' ]
+25 verbose url resolved https://registry.npmjs.org/gulp-chai
+26 verbose request where is https://registry.npmjs.org/gulp-chai
+27 info trying registry request attempt 1 at 20:47:39
+28 http GET https://registry.npmjs.org/gulp-chai
+29 http 404 https://registry.npmjs.org/gulp-chai
+30 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 verbose headers   'content-type': 'application/json',
+30 verbose headers   'cache-control': 'max-age=0',
+30 verbose headers   'content-length': '51',
+30 verbose headers   'accept-ranges': 'bytes',
+30 verbose headers   date: 'Mon, 03 Aug 2015 03:47:39 GMT',
+30 verbose headers   via: '1.1 varnish',
+30 verbose headers   age: '0',
+30 verbose headers   connection: 'keep-alive',
+30 verbose headers   'x-served-by': 'cache-sjc3131-SJC',
+30 verbose headers   'x-cache': 'MISS',
+30 verbose headers   'x-cache-hits': '0',
+30 verbose headers   'x-timer': 'S1438573659.453297,VS0,VE348' }
+31 silly registry.get cb [ 404,
+31 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '51',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Mon, 03 Aug 2015 03:47:39 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-sjc3131-SJC',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1438573659.453297,VS0,VE348' } ]
+32 silly lockFile 6bac25b0-gulp-chai gulp-chai@
+33 silly lockFile 6bac25b0-gulp-chai gulp-chai@
+34 error 404 404 Not Found: gulp-chai
+34 error 404
+34 error 404 'gulp-chai' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'auth-practice'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Darwin 14.4.0
+36 error command "/Users/dylanmoberg/.node/bin/node" "/Users/dylanmoberg/.node/bin/npm" "install" "gulp-chai"
+37 error cwd /Users/dylanmoberg/fuckarounds/auth-practice
+38 error node -v v0.10.35
+39 error npm -v 1.4.28
+40 error code E404
+41 verbose exit [ 1, true ]
